@@ -4,9 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Coughee ☕/sign-up</title>
+    <title>Café Éclat☕</title>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="wrapper_left">
+            <div class="wrapper_img">
+                <img src="nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg" alt="Coffe Image by Nathan Dumlao">
+            </div>
+            <div class="wrapper_overlay">
+                <p class="txt">
+                    Café Éclat<span>&trade;</span>
+                </p>
+            </div>
+        </div>
+        <div class="wrapper_right">
+            <p class="txt">
+                Sign Up
+            </p>
+            <p>
+                Sign in order to continue your journey in becoming a connaisseur de café.
+            </p>
+            <form action="" method="">
+                <div class="form-container">
+                    <div class="input_space">
+                        <label for="f-name"></label>
+                        <input type="text" name="f-name" id="f-name" required>
+                        <span>
+                            First name
+                        </span>
+                        <div class="error"></div>
+                    </div>
 
+                    <div class="input_space">
+                        <label for="l-name"></label>
+                        <input type="text" name="l-name" id="l-name" required>
+                        <span>
+                            Last name
+                        </span>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input_space">
+                        <label for="mail">
+                        </label>
+                        <input type="email" name="email" id="email" required>
+                        <span>
+                            E-mail
+                        </span>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input_space">
+                        <label for="phone">
+                        </label>
+                        <input type="tel" name="phone" id="phone" required>
+                        <span>Phone</span>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input_space">
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" class="user-password" required>
+                        <span>Password</span>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input_space">
+                        <label for="confirm-password"></label>
+                        <input type="password" name="confirm-password" id="confirm-password" class="confirm-password" required>
+                        <span>
+                            Confirm Password
+                        </span>
+                        <div class="error"></div>
+                    </div>
+
+                    <div id="submit">
+                        <button type="submit" class="submit-btn">Create Account</button>
+                        <p class="login-text">
+                            Already have an account..? <span class="login_highlighted">  Log in</span>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
